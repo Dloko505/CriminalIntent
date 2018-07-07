@@ -1,7 +1,6 @@
-package deepdive.cnm.edu.criminalintent.controller;
+package deepdive.cnm.edu.criminalintent;
 
 import android.support.v4.app.Fragment;
-import deepdive.cnm.edu.criminalintent.SingleFragmentActivity;
 
 public class CrimeListActivity extends SingleFragmentActivity {
 
@@ -9,5 +8,5 @@ public class CrimeListActivity extends SingleFragmentActivity {
   protected Fragment createFragment() {
     return new CrimeListFragment();
   }
-
 }
+
